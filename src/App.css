@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: #02012e;
+  color: aliceblue;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input-label {
+  color: rgb(1, 125, 187);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-box {
+  outline: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  width: 500px;
+  height: 40px;
+  border: 1px solid #828181;
+  border-radius: 8px;
+  background-color: #02012e;
+  padding-left: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.timer-div {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.play {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(1, 125, 187);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-btn {
+  margin-left: 4px;
+}
+
+.timer-text {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(1, 125, 187);
+}
